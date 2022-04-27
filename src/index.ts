@@ -1,5 +1,5 @@
-import { config } from 'config/config';
+import { logger } from './utils/logger';
 
-const main: IMain.Main = { a: 's' };
-
-console.error('Console', main);
+logger.error('Hey %s %d %d', 'Sahas', 2, 3, { userId: 2134 });
+logger.info('Hey %s', 'Sahas', { userId: 2134 });
+logger.warn('Hey %s', 'Sahas');

@@ -6,3 +6,9 @@ dist
 .env
 .env.development
 .env.production
+
+# Locking usage to yarnv3. Prevention of npm lock file from commit
+package-lock.json
+
+logs
+logs/*
